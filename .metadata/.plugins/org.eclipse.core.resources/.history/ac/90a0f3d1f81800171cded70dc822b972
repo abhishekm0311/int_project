@@ -11,13 +11,13 @@ public class SC001_TC001 {
 	}
 	
 	@Test
-	public void Test02_Second()
+	public void Test02_second()
 	{
 		System.out.println("Printed Second..!!");
 	}
 	
 	@Test
-	public void Test02_Three()
+	public void Test02_three()
 	{
 		System.out.println("Printed Three..!!");
 	}
