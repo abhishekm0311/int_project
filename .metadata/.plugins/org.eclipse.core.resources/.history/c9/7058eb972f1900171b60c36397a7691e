@@ -24,8 +24,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class Login_SC001_TC001 {
 	
-	private static AndroidDriver driver;
-	private static String url = "http://0.0.0.0:4723/wd/hub";
+	private static String url = "http://0.0.0.1:4723/wd/hub";
 	
 	/*private static AndroidDriver driver;
     private static String url = "http://127.0.0.1:4723/wd/hub";
@@ -99,19 +98,19 @@ public class Login_SC001_TC001 {
         driver = new AndroidDriver(new URL(url), capabilities);
     }
 	
-//	@Test
-//	public void Test01_Login_SC001_TC001_TS_001() throws Exception
-//	{
-//		/*(new WebDriverWait(driver, 30)).until(ExpectedConditions.presenceOfElementLocated(By.name("Login"))).isDisplayed();
-//		driver.findElement(By.name("Login")).click();*/
-//		
-//		System.out.println("#===#===#===#===#");
-//		System.out.println(inputData[0]);
-//		System.out.println(inputData[1]);
-//		
-//		assertValue = "";
-//      	screenshotcapture(Thread.currentThread().getStackTrace()[1].getMethodName());
-//	}
+	@Test
+	public void Test01_Login_SC001_TC001_TS_001() throws Exception
+	{
+		/*(new WebDriverWait(driver, 30)).until(ExpectedConditions.presenceOfElementLocated(By.name("Login"))).isDisplayed();
+		driver.findElement(By.name("Login")).click();*/
+		
+		System.out.println("#===#===#===#===#");
+		System.out.println(inputData[0]);
+		System.out.println(inputData[1]);
+		
+		assertValue = "";
+      	screenshotcapture(Thread.currentThread().getStackTrace()[1].getMethodName());
+	}
 	
 	
 /*	
@@ -128,14 +127,14 @@ public class Login_SC001_TC001 {
       	screenshotcapture(Thread.currentThread().getStackTrace()[1].getMethodName());
 	}*/
 	
-//	@Test
-//    public void tearDown() throws Exception
-//    {
-//		ExcelBean.CopyExcel(myDevice, appCode);
-//    	driver.closeApp();
-//    	driver.quit();
-//    	Thread.sleep(2000);
-//    	TaskKill.stopappium();
-//    	Thread.sleep(2000);
-//    }
+	@Test
+    public void tearDown() throws Exception
+    {
+		ExcelBean.CopyExcel(myDevice, appCode);
+    	driver.closeApp();
+    	driver.quit();
+    	Thread.sleep(2000);
+    	TaskKill.stopappium();
+    	Thread.sleep(2000);
+    }
 }
