@@ -2,5 +2,6 @@ language: java
 sudo: false
 jdk: oraclejdk8
 script: cd Appium && mvn clean verify
-install:
-  - nodejs
+before_install:
+  - nvm install 6.9.5
+  - node --version
