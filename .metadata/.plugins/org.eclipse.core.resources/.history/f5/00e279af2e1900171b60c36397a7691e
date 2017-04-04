@@ -1,0 +1,85 @@
+package framework;
+
+import org.testng.TestNG;
+
+import framework.ExecutionListener;
+//import Funds_Transfer.SCN_P2P_SKN_001;
+//import Mobile_Postpaid.MP_SC001_TC_001;
+//import Water_Bill_Pay.WBP_001_TC_001_PAM_PALYJA;
+
+public class RunnerDemo {
+	
+	public static void main(String[] args) {
+		
+		ExecutionListener el = new ExecutionListener();
+		TestNG testng = new TestNG();
+		
+	    testng.setTestClasses(new Class[] {SCN_P2P_SKN_001.class});
+//	    testng.setTestClasses(new Class[] {MP_SC001_TC_001.class});
+	//  testng.setTestClasses(new Class[] {M2UDashboard_LFA_089.class});
+	//  testng.setTestClasses(new Class[] {M2UDashboard_LFA_090.class});
+    //   testng.setTestClasses(new Class[] {M2UDashboard_LFA_088.class});
+	//  testng.setTestClasses(new Class[] {M2UDashboard_LFA_087.class});
+	//    testng.setTestClasses(new Class[] {M2UDashboard_LFA_086.class});
+	 //   testng.setTestClasses(new Class[] {M2UDashboard_Wealth_082.class});
+	//    testng.setTestClasses(new Class[] {M2UDashboard_Wealth_083.class});
+	//    testng.setTestClasses(new Class[] {M2UDashboard_Cards_028.class});
+	  //  testng.setTestClasses(new Class[] {M2UDashboard_Cards_029.class});
+	    //testng.setTestClasses(new Class[] {M2UDashboard_Cards_030.class});
+	//    testng.setTestClasses(new Class[] {M2UDashboard_Cards_032.class});
+//	    testng.setTestClasses(new Class[] {M2UDashboard_Cards_033.class});
+
+	    
+	    
+	    
+//		testng.setTestClasses(new Class[] { Pay_Jom_Pay_001.class });
+//		testng.setTestClasses(new Class[] { Onboarding_WOTP_014.class });
+//		testng.setTestClasses(new Class[] { SC003_Onboarding.class });
+//		testng.setTestClasses(new Class[] { SC004_Transaction_History.class });
+//		testng.setTestClasses(new Class[] { SC005_SearchbyText.class });
+//		testng.setTestClasses(new Class[] { SC006_applyAdvanceFilter.class });
+//		testng.setTestClasses(new Class[] { SC007_ThisWeek.class });
+//		testng.setTestClasses(new Class[] { SC008_TimeRange.class });
+//		testng.setTestClasses(new Class[] { SC009_AmountRange.class });
+//		testng.setTestClasses(new Class[] { SC010_History.class });
+//		testng.setTestClasses(new Class[] { SC011_Upcoming.class });
+//		testng.setTestClasses(new Class[] { SC012_UpcomingSearchbyText.class });
+//		testng.setTestClasses(new Class[] { SC013_UpcomingApplyAdvanceFilter.class });
+//		testng.setTestClasses(new Class[] { SC014_UpcomingThisWeek.class });
+//		testng.setTestClasses(new Class[] { SC015_UpcomingTimeRange.class }); j
+//		testng.setTestClasses(new Class[] { SC016_UpcomingAmountRange.class });
+//		testng.setTestClasses(new Class[] { SC017_ViewMCard.class });
+//		testng.setTestClasses(new Class[] { SC018_ChangePIN.class });
+//		testng.setTestClasses(new Class[] { SC019_BlockCard.class });
+//		testng.setTestClasses(new Class[] { SC020_ChangeCardLimit.class });
+//		testng.setTestClasses(new Class[] { SC021_ecard_cvv.class });
+//		testng.setTestClasses(new Class[] { SC022_TopUpEcard.class });
+//		testng.setTestClasses(new Class[] { SC023_eCardBlock.class });
+//		testng.setTestClasses(new Class[] { SC024_eCardChangeLimit.class });
+//		testng.setTestClasses(new Class[] { SC025_eCardRefund.class });
+//		testng.setTestClasses(new Class[] { SC026_eCardTxns.class });
+//		testng.setTestClasses(new Class[] { SC028_AddMoneyFlexiSaver.class });
+//		testng.setTestClasses(new Class[] { SC029_WithdrawFlexiSaver.class });
+//		testng.setTestClasses(new Class[] { SC030_DS_SpecificDateOff.class });
+//		testng.setTestClasses(new Class[] { SC030_TC02_DS_Specific_Date_On.class });
+//		testng.setTestClasses(new Class[] { SC031_DS_EditDream.class });
+//		testng.setTestClasses(new Class[] { SC032_FinishDS.class });
+//		testng.setTestClasses(new Class[] { SC033_SendViaAddRecipient.class });
+//		testng.setTestClasses(new Class[] { SC034_SendtoSelectedContact.class });
+//		testng.setTestClasses(new Class[] { SC035_SendItGroupPayment.class });
+//		testng.setTestClasses(new Class[] { SC036_PrepaidBill.class });
+//		testng.setTestClasses(new Class[] { SC037_PostpaidBill.class });
+//		testng.setTestClasses(new Class[] { SC038_SavedContacts.class });
+//		testng.setTestClasses(new Class[] { SC039_InputManually.class });
+//		testng.setTestClasses(new Class[] { SC040_SavedContact.class });
+//		testng.setTestClasses(new Class[] { SC041_AddingContactsManually.class });
+//		testng.setTestClasses(new Class[] { SC042_GenerateCode.class });
+//		testng.setTestClasses(new Class[] { SC043_FindUs.class });
+//		testng.setTestClasses(new Class[] { SC044_ProfileAndSettings.class });
+//		testng.setTestClasses(new Class[] { SC045_Logout.class });
+		
+		testng.addListener(el);
+		testng.run();
+
+	}
+}

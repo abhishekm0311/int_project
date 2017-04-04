@@ -4,21 +4,9 @@ import org.testng.annotations.Test;
 
 public class SC001_TC001 {
 	
-	@Test
-	public void Test01_First()
-	{
-		System.out.println("Printed First..!!");
-	}
-	
-	@Test
-	public void Test02_Second()
-	{
-		System.out.println("Printed Second..!!");
-	}
-	
-	@Test
-	public void Test02_Three()
-	{
-		System.out.println("Printed Three..!!");
+	public static void main(String[] args) {
+		
+		System.out.println("Printed....!!!");
+		
 	}
 }

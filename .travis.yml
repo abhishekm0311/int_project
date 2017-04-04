@@ -46,9 +46,9 @@ before_script:
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
 
-
 script:
   - appium-doctor
   - adb devices
   - android list targets
   - appium
+  - mvn exec:java -Dexec.mainClass="framework.RunnerDemo"
