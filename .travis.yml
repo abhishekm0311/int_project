@@ -1,4 +1,6 @@
 language: java
 sudo: false
+install:
+	- npm install
 jdk:
-  - oraclejdk8
+  	- oraclejdk8
