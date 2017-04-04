@@ -5,3 +5,4 @@ script: cd Appium && mvn clean verify
 before_install:
   - nvm install 6.9.5
   - node --version
+  - npm install -g appium
