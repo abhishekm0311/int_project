@@ -1,0 +1,19 @@
+package lambo;
+
+import org.testng.annotations.Test;
+
+public class SC001_TC001 {
+	
+	@Test
+	public void Test01_first()
+	{
+		System.out.println("Printed First..!!");
+	}
+	
+	@Test
+	public void Test02_second()
+	{
+		System.out.println("Printed First..!!");
+	}
+
+}

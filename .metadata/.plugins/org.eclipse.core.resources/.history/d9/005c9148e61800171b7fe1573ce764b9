@@ -1,0 +1,13 @@
+package lambo;
+
+import org.testng.annotations.Test;
+
+public class SC001_TC001 {
+	
+	@Test
+	public void first()
+	{
+		
+	}
+
+}
