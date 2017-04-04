@@ -8,5 +8,5 @@ before_install:
   - npm install -g appium
   - npm install -g appium-doctor
 script:
-  - appium
   - appium-doctor
+  - appium
