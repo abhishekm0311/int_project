@@ -7,7 +7,6 @@ before_install:
   - node --version
   - npm install -g appium
   - npm install -g appium-doctor
-  - npm install -g android-sdk-client
 
 script:
   - android list sdk --all
