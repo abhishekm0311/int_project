@@ -15,10 +15,4 @@ public class SC001_TC001 {
 	{
 		System.out.println("Printed Second..!!");
 	}
-	
-	@Test
-	public void Test02_three()
-	{
-		System.out.println("Printed Three..!!");
-	}
 }

@@ -17,8 +17,8 @@ public class SC001_TC001 {
 	}
 	
 	@Test
-	public void Test02_three()
+	public void Test02_second()
 	{
-		System.out.println("Printed Three..!!");
+		System.out.println("Printed Second..!!");
 	}
 }
