@@ -7,3 +7,6 @@ before_install:
   - node --version
   - npm install -g appium
   - npm install -g appium-doctor
+script:
+  - appium
+  - appium-doctor
