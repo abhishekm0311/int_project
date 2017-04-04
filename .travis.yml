@@ -1,0 +1,3 @@
+language: java
+sudo: false
+script: cd egit_travis && mvn clean verify
