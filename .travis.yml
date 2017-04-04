@@ -1,3 +1,5 @@
 language: java
 sudo: false
+jdk:
+  - oraclejdk8
 script: cd egit_travis && mvn clean verify
