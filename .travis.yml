@@ -1,6 +1,6 @@
 language: java
 sudo: false
 jdk: oraclejdk8
-install:
-  - nodejs
-  - npm
+before_script:
+	- sudo apt-get install nodejs
+	- sudo apt-get install npm
