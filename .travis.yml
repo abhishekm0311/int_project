@@ -52,3 +52,4 @@ script:
   - appium-doctor
   - adb devices
   - android list targets
+  - appium
