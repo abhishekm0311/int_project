@@ -54,4 +54,5 @@ script:
   - ls
   - which java
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
+  - appium
   - java -cp . lambo.SampleOne
