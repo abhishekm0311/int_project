@@ -823,3 +823,9 @@ Contains: Could not delete: D:\egit_travis\Appium\target\classes\framework.
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-05 14:40:35.702
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-05 18:44:42.589
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-05 18:44:42.610
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

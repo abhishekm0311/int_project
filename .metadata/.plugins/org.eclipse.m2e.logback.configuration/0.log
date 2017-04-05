@@ -480,3 +480,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2017-04-05 18:37:10,228 [Worker-128] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Appium/src
 2017-04-05 18:37:10,229 [Worker-128] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Appium/src/test/java because it overlaps with /Appium/src
 2017-04-05 18:37:11,689 [Worker-128] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-04-05 18:44:42,580 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-05 18:44:42,606 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-05 18:44:42,609 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-05 18:44:42,610 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
