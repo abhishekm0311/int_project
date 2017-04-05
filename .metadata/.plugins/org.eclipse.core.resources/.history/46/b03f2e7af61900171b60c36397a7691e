@@ -22,6 +22,8 @@ public class SampleOne {
 		capabilities.setCapability("appPackage", "com.ubyapp");
 		capabilities.setCapability("appActivity","com.ubyapp.MainActivity");
         driver = new AndroidDriver(new URL(url), capabilities);
+        
+        
 		
 	}
 }

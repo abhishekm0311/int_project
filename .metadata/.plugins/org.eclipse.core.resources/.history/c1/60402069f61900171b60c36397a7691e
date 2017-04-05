@@ -16,12 +16,14 @@ public class SampleOne {
 		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
-        capabilities.setCapability("udid", "emulator:5554");
+        capabilities.setCapability("udid", "192.168.1.103:5555");
 		capabilities.setCapability("platformVersion", "5.0");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("appPackage", "com.ubyapp");
 		capabilities.setCapability("appActivity","com.ubyapp.MainActivity");
         driver = new AndroidDriver(new URL(url), capabilities);
+        
+        
 		
 	}
 }
