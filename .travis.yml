@@ -4,3 +4,4 @@ jdk: oraclejdk8
 
 script:
   - java -version
+  - java -cp ./Another/src/pack One
