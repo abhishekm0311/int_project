@@ -3,5 +3,5 @@ sudo: false
 jdk: oraclejdk8
 
 script:
-  - cd Appium/target
+  - cd Appium/target/classes/lambo
   - java -version
