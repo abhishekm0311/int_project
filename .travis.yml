@@ -6,4 +6,4 @@ script:
   - cd Appium/target/classes/lambo
   - which java
   - set PATH=/usr/lib/jvm/java-8-oracle/bin/java
-  - java Sample
+  - java ./Appium/target/classes/lambo/Sample
