@@ -4,4 +4,4 @@ jdk: oraclejdk8
 script: cd Appium && mvn clean verify
 
 script:
-  - java framework.RunnerDemo
+  - mvn exec:java -Dexec.mainClass=framework.RunnerDemo
