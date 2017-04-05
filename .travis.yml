@@ -50,5 +50,4 @@ script:
   - appium-doctor
   - adb devices
   - android list targets
-  - appium
   - mvn exec:java -Dexec.mainClass="framework.RunnerDemo"
