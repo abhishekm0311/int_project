@@ -4,4 +4,4 @@ jdk: oraclejdk8
 script: cd Appium && mvn clean verify
 
 script:
-  - mvn exec:java -Dexec.mainClass=lambo.SC001_TC001
+  - java SC001_TC001

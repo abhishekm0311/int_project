@@ -1,0 +1,139 @@
+package lambo;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class Login_SC001_TC001 {
+	
+	private static AndroidDriver driver;
+	private static String url = "http://0.0.0.0:4723/wd/hub";
+	
+	/*private static AndroidDriver driver;
+    private static String url = "http://127.0.0.1:4723/wd/hub";
+    
+	public static String assertValue;
+	
+	static Calendar now = Calendar.getInstance();
+	private static int hour = now.get(Calendar.HOUR_OF_DAY);
+	private static int minute = now.get(Calendar.MINUTE);
+	private static int second = now.get(Calendar.SECOND);
+	
+	private static String appCode = "Login_SC001_TC001";
+	String Android_Device = ExcelBean.getDeviceName(getClass().getSimpleName());
+	
+	String myDevice = changeString();
+	
+	public static String Module = "login";
+	
+	private static String[] inputData = new ExcelBean().getInputData(Module);
+	
+	String changeString() {
+	    return "Moto_G3";
+	}
+	
+	public void screenshotcapture(String pageName) throws IOException
+	{	
+		File screenshot =  ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+		String path;
+		
+		SimpleDateFormat sd = new SimpleDateFormat("yyyy");
+		SimpleDateFormat sd1 = new SimpleDateFormat("MMM");
+		SimpleDateFormat sd2 = new SimpleDateFormat("dd");
+		Calendar c = Calendar.getInstance();
+		
+		path = "C:\\Logs\\" + sd.format(c.getTime()) + "\\"
+				+ sd1.format(c.getTime()) + "\\" + sd2.format(c.getTime())
+				+ "\\" + myDevice +"\\"+appCode+"\\"+hour+"_"+minute;
+		
+		File theDir = new File(path);
+		if (!theDir.exists()) {
+			System.out.println("creating directory: " + path);
+			boolean result = false;
+			try {
+				theDir.mkdirs();
+				result = true;
+			} catch (SecurityException localSecurityException) {
+			}
+			if (result) {
+				System.out.println("DIR's created");
+			}
+		}
+		
+		FileUtils.copyFile(screenshot, new File(path+"/"+pageName.substring(7)+".jpg"));
+	}*/
+	
+	@BeforeClass
+    public void setUpTest() throws Exception
+    {	
+		TaskKill.stopappium();
+		Thread.sleep(2000);
+		TaskKill.startappium();
+		Thread.sleep(5000);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("deviceName", "Android");
+        capabilities.setCapability("udid", "192.168.1.103:5555");
+		capabilities.setCapability("platformVersion", "5.0");
+		capabilities.setCapability("platformName", "Android");
+		capabilities.setCapability("appPackage", "com.ubyapp");
+		capabilities.setCapability("appActivity","com.ubyapp.MainActivity");
+        driver = new AndroidDriver(new URL(url), capabilities);
+    }
+	
+//	@Test
+//	public void Test01_Login_SC001_TC001_TS_001() throws Exception
+//	{
+//		/*(new WebDriverWait(driver, 30)).until(ExpectedConditions.presenceOfElementLocated(By.name("Login"))).isDisplayed();
+//		driver.findElement(By.name("Login")).click();*/
+//		
+//		System.out.println("#===#===#===#===#");
+//		System.out.println(inputData[0]);
+//		System.out.println(inputData[1]);
+//		
+//		assertValue = "";
+//      	screenshotcapture(Thread.currentThread().getStackTrace()[1].getMethodName());
+//	}
+	
+	
+/*	
+	@Test
+	public void Test01_MTP_SC001_TC_001_TS_002() throws Exception
+	{
+		List tfList = driver.findElements(By.className("android.widget.EditText"));
+		((WebElement) tfList.get(0)).sendKeys("6281295241203");
+		driver.hideKeyboard();
+		((WebElement) tfList.get(1)).click();
+		driver.hideKeyboard();
+		
+		assertValue = "";
+      	screenshotcapture(Thread.currentThread().getStackTrace()[1].getMethodName());
+	}*/
+	
+//	@Test
+//    public void tearDown() throws Exception
+//    {
+//		ExcelBean.CopyExcel(myDevice, appCode);
+//    	driver.closeApp();
+//    	driver.quit();
+//    	Thread.sleep(2000);
+//    	TaskKill.stopappium();
+//    	Thread.sleep(2000);
+//    }
+}
