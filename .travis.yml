@@ -3,5 +3,5 @@ sudo: false
 jdk: oraclejdk8
 
 script:
-  - cd abhishekm0311/init_project/Appium/target/classes/pack
+  - cd Appium
   - java -version
