@@ -4,4 +4,4 @@ jdk: oraclejdk8
 
 script:
   - cd Appium/target/classes/lambo
-  - java Sample
+  - java -cp ./Sample
