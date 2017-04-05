@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="lambo.Login_SC001_TC001"/>
+<fullyQualifiedTypeName name="framework.RunnerDemo"/>
+<fullyQualifiedTypeName name="lambo.SC001_TC001"/>
+<fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="lambo.TaskKill"/>
+</qualifiedTypeNameHistroy>
