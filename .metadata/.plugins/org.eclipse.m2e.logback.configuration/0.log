@@ -458,3 +458,17 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2017-04-05 12:40:20,810 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean verify
 2017-04-05 12:41:00,365 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
 2017-04-05 12:41:00,365 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean verify
+2017-04-05 14:40:11,039 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Another:Another:0.0.1-SNAPSHOT @ D:\egit_travis\Another\pom.xml.
+2017-04-05 14:40:13,016 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Another/src
+2017-04-05 14:40:13,017 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Another/src overlaps with sources folder /Another/src
+2017-04-05 14:40:13,019 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Another/src/test/java because it overlaps with /Another/src
+2017-04-05 14:40:13,138 [Worker-96] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-04-05 14:40:15,212 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Another:Another:0.0.1-SNAPSHOT @ D:\egit_travis\Another\pom.xml.
+2017-04-05 14:40:15,598 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Another/src
+2017-04-05 14:40:15,598 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /Another/src overlaps with sources folder /Another/src
+2017-04-05 14:40:15,632 [Worker-96] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Another/src/test/java because it overlaps with /Another/src
+2017-04-05 14:40:15,751 [Worker-96] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-04-05 14:40:35,581 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-05 14:40:35,653 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-05 14:40:35,701 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-05 14:40:35,702 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Another\src\test\resources
