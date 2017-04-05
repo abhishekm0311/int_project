@@ -2,7 +2,7 @@ language: java
 sudo: false
 jdk: oraclejdk8
 before_script:
-  - cd Another\target\classes\pack
+  - cd ./Another/target/classes/pack
 
 script:
   - java -classpath .; pack.One
