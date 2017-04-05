@@ -4,6 +4,7 @@ jdk: oraclejdk8
 
 script:
   - cd Appium/target/classes
+  - ls
   - which java
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
-  - java -cp ./lambo Sample
+  - java -cp .;Appium/target/classes lambo.Sample
