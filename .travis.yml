@@ -3,8 +3,8 @@ sudo: false
 jdk: oraclejdk8
 
 script:
-  - cd Appium/target/classes/lambo
+  - cd Appium/target/classes
   - ls
   - which java
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
-  - java Sample
+  - java -cp . lambo.Sample
