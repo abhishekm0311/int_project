@@ -1,6 +1,8 @@
 language: java
 sudo: false
 jdk: oraclejdk8
+before_script:
+  - cd Another\target\classes\pack
 
 script:
-  - java -cp ./Another/target/classes/pack.One
+  - java -classpath .; pack.One
