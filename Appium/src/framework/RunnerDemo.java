@@ -16,7 +16,7 @@ public class RunnerDemo {
 		ExecutionListener el = new ExecutionListener();
 		TestNG testng = new TestNG();
 		
-	    testng.setTestClasses(new Class[] {RunnerDemo.class});
+	    testng.setTestClasses(new Class[] {SC001_TC001.class});
 //	    testng.setTestClasses(new Class[] {MP_SC001_TC_001.class});
 	//  testng.setTestClasses(new Class[] {M2UDashboard_LFA_089.class});
 	//  testng.setTestClasses(new Class[] {M2UDashboard_LFA_090.class});
