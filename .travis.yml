@@ -1,7 +1,6 @@
 language: java
 sudo: false
 jdk: oraclejdk8
-script: cd abhishekm0311/int_project/Appium/src/lambo
 
 script:
-  - java SC001_TC001
+  - java -cp ./Appium/target/classes/lambo SC001_TC001
