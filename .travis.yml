@@ -4,4 +4,4 @@ jdk: oraclejdk8
 
 script:
   - cd Appium/target/classes/lambo
-  - echo %JAVA_HOME%
+  - which java
