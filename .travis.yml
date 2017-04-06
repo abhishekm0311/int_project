@@ -46,6 +46,6 @@ script:
   - cd Appium && mvn clean verify
   - ls
   - which java
-  - cd Appium/target/classes
+  - cd target/classes
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
   - java -cp . lambo.SampleOne
