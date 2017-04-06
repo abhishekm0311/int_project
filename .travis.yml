@@ -47,5 +47,6 @@ script:
   - ls
   - which java
   - cd target/classes
+  - ls
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
   - java -cp . lambo.SampleOne
