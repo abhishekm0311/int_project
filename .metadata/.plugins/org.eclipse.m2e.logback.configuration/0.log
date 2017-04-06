@@ -2015,3 +2015,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected > 
 2017-04-06 17:54:11,857 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
 2017-04-06 17:54:11,859 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-06 17:54:11,860 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 18:11:10,134 [Worker-154] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Appium:Appium:0.0.1-SNAPSHOT @ D:\egit_travis\Appium\pom.xml.
+2017-04-06 18:11:10,342 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+2017-04-06 18:11:11,219 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 18:11:11,220 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 18:11:11,221 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 18:11:11,222 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 18:11:11,277 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+2017-04-06 18:11:12,244 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+2017-04-06 18:11:13,237 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 18:11:13,238 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 18:11:13,239 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 18:11:13,240 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources

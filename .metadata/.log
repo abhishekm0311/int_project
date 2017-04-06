@@ -4923,3 +4923,24 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected > 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 17:54:11.859
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:10.342
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:11.220
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:11.222
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:11.278
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:12.245
+!MESSAGE The POM for org.seleniumhq.selenium:selenium-server-standalone:jar:2.53.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:13.238
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-06 18:11:13.240
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
