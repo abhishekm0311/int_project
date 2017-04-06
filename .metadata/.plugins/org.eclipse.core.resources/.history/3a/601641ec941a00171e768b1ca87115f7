@@ -49,7 +49,7 @@ public class TaskKill {
 	
 	public static void startappium() throws ExecuteException, IOException{
 	
-		Runtime.getRuntime().exec("appium");
+		Runtime.getRuntime().exec("cmd /c start C:/Users/q2435/AppData/Roaming/npm/appium");
 		
 //		CommandLine command = new CommandLine(appium_path+"/node.exe");
 //		CommandLine command = new CommandLine("C:/Users/q2435/AppData/Roaming/npm/");

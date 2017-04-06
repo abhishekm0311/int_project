@@ -14,8 +14,8 @@ public class SampleOne {
 		AndroidDriver driver;
 		String url = "http://127.0.0.1:4723/wd/hub";
 		
-//		TaskKill.startappium();
-//		Thread.sleep(10000);
+		TaskKill.startappium();
+		Thread.sleep(10000);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
         capabilities.setCapability("udid", "emulator:5554");
