@@ -15,4 +15,5 @@ script:
   - cd target/classes
   - ls
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
+  - selenium
   - java -cp . lambo.SampleOne
