@@ -43,8 +43,8 @@ script:
   - appium-doctor
   - adb devices
   - android list targets
-  - cd Appium/target/classes && mvn clean verify
-  - ls
+  - cd Appium && mvn clean verify
   - which java
+  - cd Appium/target/classes
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
   - java -cp . lambo.SampleOne
