@@ -1647,3 +1647,53 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.po
 2017-04-06 16:51:10,314 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
 2017-04-06 16:51:10,316 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-06 16:51:10,318 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 17:00:20,128 [Worker-130] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Appium:Appium:0.0.1-SNAPSHOT @ D:\egit_travis\Appium\pom.xml.
+2017-04-06 17:00:21,052 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:21,102 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 17:00:21,103 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:21,104 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 17:00:22,879 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:22,880 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 17:00:22,881 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:22,882 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 17:00:24,721 [Worker-128] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Appium:Appium:0.0.1-SNAPSHOT @ D:\egit_travis\Appium\pom.xml.
+2017-04-06 17:00:25,711 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:25,712 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 17:00:25,717 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:00:25,719 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 17:01:36,882 [Worker-126] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Appium:Appium:0.0.1-SNAPSHOT @ D:\egit_travis\Appium\pom.xml.
+2017-04-06 17:01:38,722 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.pom
+2017-04-06 17:01:48,578 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.pom
+2017-04-06 17:01:48,766 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.pom
+2017-04-06 17:01:49,808 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/org/seleniumhq/selenium/selenium-parent/2.0b1/selenium-parent-2.0b1.pom
+2017-04-06 17:01:49,997 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.0b1/selenium-parent-2.0b1.pom
+2017-04-06 17:01:50,184 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.0b1/selenium-parent-2.0b1.pom
+2017-04-06 17:01:51,242 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.pom
+2017-04-06 17:01:51,432 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.pom
+2017-04-06 17:01:51,621 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.pom
+2017-04-06 17:01:52,717 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2017-04-06 17:01:52,910 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2017-04-06 17:01:53,153 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+2017-04-06 17:01:54,243 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/com/google/guava/guava/r07/guava-r07.pom
+2017-04-06 17:01:54,433 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/r07/guava-r07.pom
+2017-04-06 17:01:54,624 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/r07/guava-r07.pom
+2017-04-06 17:01:55,774 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/com/google/google/5/google-5.pom
+2017-04-06 17:01:55,964 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
+2017-04-06 17:01:56,150 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
+2017-04-06 17:01:57,634 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.jar
+2017-04-06 17:01:58,712 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.jar
+2017-04-06 17:01:59,802 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2017-04-06 17:01:59,991 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.jar
+2017-04-06 17:02:00,365 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-common/2.0b1/selenium-remote-common-2.0b1.jar
+2017-04-06 17:02:00,558 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.jar
+2017-04-06 17:02:01,480 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-common/2.0b1/selenium-common-2.0b1.jar
+2017-04-06 17:02:01,680 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2017-04-06 17:02:02,320 [Worker-126] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+2017-04-06 17:02:03,201 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:02:03,202 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 17:02:03,204 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:02:03,204 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-06 17:02:04,948 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:02:04,948 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-06 17:02:04,949 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-06 17:02:04,950 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources

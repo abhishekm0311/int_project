@@ -30,12 +30,13 @@
 	    <artifactId>java-client</artifactId>
 	    <version>2.1.0</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-common -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-remote-common</artifactId>
-	    <version>2.0b1</version>
-	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-remote-driver</artifactId>
+    <version>2.53.1</version>
+</dependency>
+	
 	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
