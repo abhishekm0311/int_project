@@ -5,8 +5,9 @@ jdk: oraclejdk8
 before_install:
   - nvm install 6.9.5
   - node --version
-  - npm init -f -y
-  - npm install --save-dev selenium-server-standalone-jar
+  - npm install selenium-standalone@latest -g
+  - selenium-standalone install
+  - selenium-standalone start
 
 script:
   - cd Appium && mvn clean verify
@@ -15,5 +16,4 @@ script:
   - cd target/classes
   - ls
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
-  - selenium
   - java -cp . lambo.SampleOne
