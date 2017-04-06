@@ -44,6 +44,7 @@ script:
   - adb devices
   - android list targets
   - cd Appium && mvn clean verify
+  - ls
   - which java
   - cd Appium/target/classes
   - set path=/usr/lib/jvm/java-8-oracle/bin/java
