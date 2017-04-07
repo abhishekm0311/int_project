@@ -20,6 +20,7 @@ public class SampleOne {
 //		Thread.sleep(20000);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
+        System.out.println();
         capabilities.setCapability("udid", "emulator-5554");
 		capabilities.setCapability("platformVersion", "5.0");
 		capabilities.setCapability("platformName", "Android");
@@ -27,9 +28,8 @@ public class SampleOne {
 		capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
         driver = new AndroidDriver(new URL(url), capabilities);
         
-        System.out.println(capabilities);
-        System.out.println(driver);
-		System.out.println(driver.getPageSource());
+        driver.get("http://www.google.com");
+		
 		System.out.println("Testing...!!!");
         
 	}

@@ -29,6 +29,7 @@ public class SampleOne {
         
         System.out.println(capabilities);
         System.out.println(driver);
+//        driver.get("http://www.google.com");
 		System.out.println(driver.getPageSource());
 		System.out.println("Testing...!!!");
         

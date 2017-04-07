@@ -27,9 +27,8 @@ public class SampleOne {
 		capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
         driver = new AndroidDriver(new URL(url), capabilities);
         
-        System.out.println(capabilities);
-        System.out.println(driver);
-		System.out.println(driver.getPageSource());
+        driver.get("http://www.google.com");
+		
 		System.out.println("Testing...!!!");
         
 	}
