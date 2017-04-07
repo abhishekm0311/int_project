@@ -19,7 +19,7 @@
           <configuration>
               <archive>
                   <manifest>
-                      <mainClass>lambo.SampleOne</mainClass>
+                      <mainClass>APITesting.Test</mainClass>
                   </manifest>
               </archive>
               <descriptorRefs>

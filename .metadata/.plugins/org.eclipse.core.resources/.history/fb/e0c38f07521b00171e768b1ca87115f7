@@ -15,18 +15,18 @@
         </configuration>
       </plugin>
       <plugin>
-          <artifactId>maven-assembly-plugin</artifactId>
-          <configuration>
-              <archive>
-                  <manifest>
-                      <mainClass>lambo.SampleOne</mainClass>
-                  </manifest>
-              </archive>
-              <descriptorRefs>
-                  <descriptorRef>jar-with-dependencies</descriptorRef>
-              </descriptorRefs>
-          </configuration>
-      </plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>APITesting.Test</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
     </plugins>
   </build>
   <dependencies>

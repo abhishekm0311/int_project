@@ -8,14 +8,22 @@ before_install:
   - npm install -g appium
   - npm install -g appium-doctor
 
+#script:
+#  - appium-doctor
+#  - cd Appium && mvn clean verify
+#  - mvn test -B
+#  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+#  - ls
+#  - which java
+#  - cd target/classes
+#  - ls
+#  - set path=/usr/lib/jvm/java-8-oracle/bin/java
+#  - java -cp . lambo.SampleOne
+
 script:
-  - appium-doctor
-  - cd Appium && mvn clean verify
-  - mvn test -B
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - ls
-  - which java
-  - cd target/classes
-  - ls
-  - set path=/usr/lib/jvm/java-8-oracle/bin/java
-  - java -cp . lambo.SampleOne
+ - cd Appium && mvn clean compile assembly:single
+ - echo "$TRAVIS_BUILD_DIR"
+ - java -cp ".:$TRAVIS_BUILD_DIR/lib/selenium-server-standalone-2.53.1.jar" -jar $TRAVIS_BUILD_DIR/target/Appium-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+#script: cd SinarmasBank && mvn clean verify
+#after_script: cd SinarmasBank && java -classpath .;%local_workspace%\lib\*;%local_workspace%\bin APITesting.Test
+# - java -classpath ".:$TRAVIS_BUILD_DIR/SinarmasBank/*:$TRAVIS_BUILD_DIR/SinarmasBank/bin:$TRAVIS_BUILD_DIR/SinarmasBank/lib/selenium-server-standalone-2.53.1.jar" lambo.SampleOne
