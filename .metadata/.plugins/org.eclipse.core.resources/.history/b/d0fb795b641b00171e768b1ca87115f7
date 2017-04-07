@@ -23,8 +23,8 @@ public class SampleOne {
         capabilities.setCapability("udid", "emulator-5554");
 		capabilities.setCapability("platformVersion", "5.0");
 		capabilities.setCapability("platformName", "Android");
-		capabilities.setCapability("appPackage", "com.android.calculator2");
-		capabilities.setCapability("appActivity","com.android.calculator2.Calculator");
+		capabilities.setCapability("appPackage", "com.ubyapp");
+		capabilities.setCapability("appActivity","com.ubyapp.MainActivity");
         driver = new AndroidDriver(new URL(url), capabilities);
         
         driver.get("http://www.google.com");
