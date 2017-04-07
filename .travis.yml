@@ -8,19 +8,51 @@ before_install:
   - npm install -g appium
   - npm install -g appium-doctor
 
-#script:
-#  - appium-doctor
-#  - cd Appium && mvn clean verify
-#  - mvn test -B
-#  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-#  - ls
-#  - which java
-#  - cd target/classes
-#  - ls
-#  - set path=/usr/lib/jvm/java-8-oracle/bin/java
-#  - java -cp . lambo.SampleOne
+script:
+  - android list sdk --all
+
+language: android
+android:
+  components:
+    # Uncomment the lines below if you want to
+    # use the latest revision of Android SDK Tools
+    # - platform-tools
+    # - tools
+
+    # The BuildTools version used by your project
+    - build-tools-21.1.2
+
+    # The SDK version used to compile your project
+    - android-21
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-21
+    
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    - sys-img-armeabi-v7a-android-21
+  licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+
+# Emulator Management: Create, Start and Wait
+before_script:
+  - echo no | android create avd --force -n test -t android-21 --abi armeabi-v7a
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
 
 script:
- - cd Appium && mvn clean compile assembly:single
- - echo "$TRAVIS_BUILD_DIR"
- - java -cp ".:$TRAVIS_BUILD_DIR/lib/selenium-server-standalone-2.53.1.jar" -jar $TRAVIS_BUILD_DIR/Appium/target/Appium-0.0.1-SNAPSHOT-jar-with-dependencies.jar lambo.SampleOne
+  - appium-doctor
+  - adb devices
+  - android list targets
+  - cd Appium/target/classes
+  - ls
+  - which java
+  - cd Appium && mvn clean compile assembly:single
+  - echo "$TRAVIS_BUILD_DIR"
+  - java -cp ".:$TRAVIS_BUILD_DIR/lib/selenium-server-standalone-2.53.1.jar" -jar $TRAVIS_BUILD_DIR/Appium/target/Appium-0.0.1-SNAPSHOT-jar-with-dependencies.jar lambo.SampleOne
