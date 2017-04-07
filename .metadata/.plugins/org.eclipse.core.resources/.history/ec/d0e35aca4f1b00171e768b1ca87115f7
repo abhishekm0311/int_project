@@ -10,12 +10,10 @@ public class SampleOne {
 		
 	public static void main(String[] args) throws Exception {
 		
-		TaskKill.startappium();
-		
 		/*AndroidDriver driver;
 		String url = "http://127.0.0.1:4723/wd/hub";
 		
-		
+		TaskKill.startappium();
 		Thread.sleep(10000);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
@@ -28,7 +26,7 @@ public class SampleOne {
         
         driver.get("http://www.google.com");*/
 		
-//		System.out.println("Testing...!!!");
+		System.out.println("Testing...!!!");
         
 	}
 }
