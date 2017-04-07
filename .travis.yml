@@ -12,6 +12,7 @@ script:
   - appium-doctor
   - cd Appium && mvn clean verify
   - mvn test -B
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - ls
   - which java
   - cd target/classes
