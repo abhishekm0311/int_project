@@ -2665,3 +2665,11 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2017-04-07 13:20:37,113 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
 2017-04-07 13:20:37,115 [Worker-297] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-07 13:20:37,115 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 13:46:05,575 [Worker-302] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 13:46:05,576 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 13:46:05,578 [Worker-302] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 13:46:05,579 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 13:46:11,623 [Worker-296] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 13:46:11,623 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 13:46:11,624 [Worker-296] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 13:46:11,625 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
