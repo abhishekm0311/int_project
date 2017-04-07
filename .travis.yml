@@ -5,11 +5,11 @@ jdk: oraclejdk8
 before_install:
   - nvm install 6.9.5
   - node --version
-  - npm install selenium-standalone@latest -g
-  - selenium-standalone install
-  - selenium-standalone start
+  - npm install -g appium
+  - npm install -g appium-doctor
 
 script:
+  - appium-doctor
   - cd Appium && mvn clean verify
   - ls
   - which java
