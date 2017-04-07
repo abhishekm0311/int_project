@@ -10,9 +10,9 @@ public class SampleOne {
 		
 	public static void main(String[] args) throws Exception {
 		
-//		TaskKill.startappium();
+		TaskKill.startappium();
 		
-		AndroidDriver driver;
+		/*AndroidDriver driver;
 		String url = "http://127.0.0.1:4723/wd/hub";
 		
 		
@@ -26,9 +26,9 @@ public class SampleOne {
 		capabilities.setCapability("appActivity","com.ubyapp.MainActivity");
         driver = new AndroidDriver(new URL(url), capabilities);
         
-        driver.get("http://www.google.com");
+        driver.get("http://www.google.com");*/
 		
-		System.out.println("Testing...!!!");
+//		System.out.println("Testing...!!!");
         
 	}
 }
