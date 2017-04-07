@@ -50,8 +50,6 @@ script:
   - appium-doctor
   - adb devices
   - android list targets
-  - cd Appium/target/classes
-  - ls
   - which java
   - cd Appium && mvn clean compile assembly:single
   - echo "$TRAVIS_BUILD_DIR"

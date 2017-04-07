@@ -20,7 +20,7 @@ public class SampleOne {
 //		Thread.sleep(20000);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
-        capabilities.setCapability("udid", "emulator-5554");
+        capabilities.setCapability("udid", "emulator:5554");
 		capabilities.setCapability("platformVersion", "5.0");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("appPackage", "com.ubyapp");
