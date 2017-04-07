@@ -10,15 +10,17 @@ public class SampleOne {
 		
 	public static void main(String[] args) throws Exception {
 		
-		Runtime.getRuntime().exec("appium");
+//		Runtime.getRuntime().exec("appium");
+		TaskKill.startappium();
+		Thread.sleep(20000);
 		
 		AndroidDriver driver;
 		String url = "http://127.0.0.1:4723/wd/hub";
 		
-		Thread.sleep(10000);
+//		Thread.sleep(20000);
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android");
-        capabilities.setCapability("udid", "emulator:5554");
+//        capabilities.setCapability("udid", "emulator:5554");
 		capabilities.setCapability("platformVersion", "5.0");
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("appPackage", "com.ubyapp");
