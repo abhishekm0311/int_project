@@ -25,8 +25,6 @@ public class SampleOne {
         driver = new AndroidDriver(new URL(url), capabilities);
         
         driver.get("http://www.google.com");*/
-		
-		System.out.println("Testing...!!!");
         
 	}
 }

@@ -2534,3 +2534,67 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2017-04-07 10:38:41,850 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
 2017-04-07 10:38:41,850 [Worker-235] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-07 10:38:41,851 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:21:49,248 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:21:49,249 [Worker-241] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-04-07 11:22:06,758 [Worker-235] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:22:06,775 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:22:06,775 [Worker-235] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:22:06,776 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:48:51,420 [Worker-246] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:48:51,421 [Worker-246] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-04-07 11:48:59,832 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:48:59,833 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:48:59,833 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:48:59,834 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:50:08,752 [Worker-246] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:50:08,752 [Worker-246] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2017-04-07 11:50:11,758 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:50:11,759 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:50:11,760 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:50:11,761 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:50:26,072 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:50:26,072 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-04-07 11:50:31,781 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:50:31,782 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:50:31,783 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:50:31,784 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:50:58,655 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-04-07 11:50:58,697 [Worker-253] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:50:58,697 [Worker-253] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean verify
+2017-04-07 11:51:43,449 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:43,564 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-04-07 11:51:43,609 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:43,610 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Another\src\test\resources
+2017-04-07 11:51:43,627 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:43,628 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:51:43,629 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:43,629 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:51:51,580 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:51:51,580 [Worker-250] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-04-07 11:51:57,149 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:57,149 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:51:57,150 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:51:57,151 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:52:13,745 [Worker-249] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-04-07 11:52:14,838 [Worker-249] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Appium:Appium:0.0.1-SNAPSHOT @ D:\egit_travis\Appium\pom.xml.
+2017-04-07 11:52:16,629 [Worker-249] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Appium/src
+2017-04-07 11:52:16,630 [Worker-249] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Appium/src/test/java because it overlaps with /Appium/src
+2017-04-07 11:52:17,029 [Worker-249] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-04-07 11:52:19,505 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:52:19,506 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:52:19,506 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:52:19,507 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:52:26,338 [Worker-249] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\egit_travis\Appium
+2017-04-07 11:52:26,339 [Worker-249] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-04-07 11:52:32,142 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:52:32,143 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:52:32,146 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:52:32,147 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:59:03,207 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:59:03,218 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:59:03,219 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:59:03,220 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
+2017-04-07 11:59:21,786 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:59:21,787 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\main\resources
+2017-04-07 11:59:21,788 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-07 11:59:21,789 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\egit_travis\Appium\src\test\resources
